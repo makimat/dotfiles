@@ -69,3 +69,5 @@ _nosetests()
 complete -o nospace -F _nosetests nosetests
 
 setopt NO_NOMATCH
+
+source .cdf.sh
