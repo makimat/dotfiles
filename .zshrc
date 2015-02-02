@@ -43,10 +43,6 @@ alias gb='git branch -v'
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/go/bin:/home/makima2/gopath/bin
 export GOPATH=/home/makima2/gopath
 
-DEBEMAIL="matti.maki@f-secure.com"
-DEBFULLNAME="Matti Mäki"
-export DEBEMAIL DEBFULLNAME
-
 export LESS='-R'
 export LESSOPEN='|~/.lessfilter %s'
 
