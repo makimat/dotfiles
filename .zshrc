@@ -8,8 +8,6 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -55,12 +53,5 @@ compinit
 
 autoload -U bashcompinit
 bashcompinit
-
-_nosetests()
-{
-    cur="${COMP_WORDS[COMP_CWORD]}"
-    COMPREPLY=(`nosecomplete ${cur} 2>/dev/null`)
-}
-complete -o nospace -F _nosetests nosetests
 
 setopt NO_NOMATCH
