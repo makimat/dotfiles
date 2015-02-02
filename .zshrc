@@ -38,7 +38,6 @@ alias gd='git diff'
 alias gl='git log --decorate'
 alias gb='git branch -v'
 
-
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/go/bin:/home/makima2/gopath/bin
 export GOPATH=/home/makima2/gopath
@@ -65,5 +64,3 @@ _nosetests()
 complete -o nospace -F _nosetests nosetests
 
 setopt NO_NOMATCH
-
-source .cdf.sh
