@@ -4,7 +4,7 @@ filetype off                  " required
 if has("gui_gtk2")
     set guifont=Droid\ Sans\ Mono\ 10,Menlo\ Regular\ 11,Consolas\ Regular\ 12,Courier\ New\ Regular\ 14
 else
-    set guifont=Andale\ Mono\ Regular:h12,Menlo\ Regular:h11,Consolas\ Regular:h12,Courier\ New\ Regular:h14
+    set guifont=Andale\ Mono\ Regular:h12,Menlo\ Regular:h15,Consolas\ Regular:h12,Courier\ New\ Regular:h14
 endif
 set guioptions-=T
 
@@ -20,6 +20,10 @@ set hidden
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+set nu
+
+set backupdir=~/.vimswap,.,/tmp
+set directory=.,~/.vimswap,/tmp
 
 " Search for selected text, forwards or backwards.
 vnoremap <silent> * :<C-U>
