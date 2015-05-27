@@ -130,7 +130,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'Lokaltog/vim-easymotion'
 
-Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'wincent/Command-T'
 let g:CommandTCancelMap = "<Esc>"
 "let g:CommandTSelectNextMap = ['<C-j>', '<ESC>OB']
 "let g:CommandTSelectPrevMap = ['<C-k>', '<ESC>OA']
