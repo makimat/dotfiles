@@ -23,5 +23,7 @@ Lessfilter
 Zsh
 ===
 
-* .zshrc is based on using oh-my-zsh
-* See installation instructions at https://github.com/robbyrussell/oh-my-zsh
+* Choose either .zshrc.oh-my-zsh or .zshrc.prezto
+* With prezto link also .zprofile and .zpreztorc under your $HOME
+* Oh-my-zsh further instruction: https://github.com/robbyrussell/oh-my-zsh
+* Prezto further instruction: https://github.com/sorin-ionescu/prezto
