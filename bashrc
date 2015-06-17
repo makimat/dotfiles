@@ -108,9 +108,5 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-DEBEMAIL="matti.maki@f-secure.com"
-DEBFULLNAME="Matti Mäki"
-export DEBEMAIL DEBFULLNAME
-
 PYTHONSTARTUP=~/.pythonrc
 export PYTHONSTARTUP
