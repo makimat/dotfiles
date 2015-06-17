@@ -6,7 +6,7 @@ case "$1" in
     *.diff|*.patch|*.py|*.rb|*.sql|*.ebuild|*.eclass|*.htm|*.html|\
     Makefile)
         pygmentize -f 256 "$1";;
-    .bashrc|.bash_aliases|.bash_environment)
+    .bashrc|.bash_aliases|.bash_environment|.zshrc|.zprofile|.zshenv|.zpreztorc)
         pygmentize -f 256 -l sh "$1"
         ;;
     *)

@@ -152,6 +152,8 @@ Bundle 'mileszs/ack.vim'
 
 Bundle 'fholgado/minibufexpl.vim'
 
+Bundle 'marijnh/tern_for_vim'
+
 call vundle#end()            " required
 filetype plugin indent on
 
