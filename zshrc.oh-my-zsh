@@ -55,3 +55,7 @@ autoload -U bashcompinit
 bashcompinit
 
 setopt NO_NOMATCH
+
+# Add cdf function to be used to navigate between directories based on file names
+source cdf.sh
+
